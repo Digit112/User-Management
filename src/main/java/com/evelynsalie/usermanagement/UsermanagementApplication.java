@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class UsermanagementApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Starting...");
 		SpringApplication.run(UsermanagementApplication.class, args);
 	}
 
