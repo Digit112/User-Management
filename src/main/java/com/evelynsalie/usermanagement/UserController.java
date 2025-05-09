@@ -1,8 +1,10 @@
+package com.evelynsalie.usermanagement;
+
 import org.springframework.web.bind.annotation.*;
 import org.springframework.http.ResponseEntity;
 
 @RestController
-@RequestMapping("/api/users")
+@RequestMapping("/api/users/")
 public class UserController {
 	public UserController() {
 		System.out.println("Instantiating controller...");
